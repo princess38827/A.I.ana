@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+/* Structured XML / Markdown Layout Rendering Rules */
+.markdown-body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.625;
+}
+
+.markdown-body h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #f8fafc; /* Slate 50 */
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 0.35rem;
+}
+
+.markdown-body h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #f1f5f9; /* Slate 100 */
+}
+
+.markdown-body h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #e2e8f0; /* Slate 200 */
+}
+
+.markdown-body p {
+  margin-bottom: 0.85rem;
+  color: #cbd5e1; /* Slate 300 */
+}
+
+.markdown-body ul {
+  list-style-type: disc !important;
+  margin-left: 1.5rem !important;
+  margin-bottom: 0.85rem !important;
+}
+
+.markdown-body ol {
+  list-style-type: decimal !important;
+  margin-left: 1.5rem !important;
+  margin-bottom: 0.85rem !important;
+}
+
+.markdown-body li {
+  margin-bottom: 0.35rem;
+  color: #cbd5e1; /* Slate 300 */
+}
+
+.markdown-body li > ul,
+.markdown-body li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0px;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+  color: #f8fafc; /* Slate 50 */
+}
+
+.markdown-body pre {
+  background-color: #020617; /* Slate 950 */
+  border: 1px solid #1e293b; /* Slate 800 */
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  overflow-x: auto;
+}
+
+.markdown-body pre code {
+  background-color: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  font-size: 0.8rem;
+  color: #e2e8f0;
+}
+
+.markdown-body code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  background-color: #1e293b !important; /* Slate 800 */
+  padding: 0.15rem 0.35rem !important;
+  border-radius: 0.35rem !important;
+  font-size: 0.85em !important;
+  color: #f472b6 !important; /* Pink 400 pop accent */
+}
+
+.markdown-body blockquote {
+  border-left: 4px solid #6366f1; /* Indigo 500 */
+  padding-left: 1rem;
+  color: #94a3b8; /* Slate 400 */
+  font-style: italic;
+  margin: 1.25rem 0;
+  background-color: rgba(99, 102, 241, 0.03);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.markdown-body th {
+  background-color: #0f172a; /* Slate 900 */
+  border: 1px solid #1e293b; /* Slate 800 */
+  padding: 0.6rem 0.85rem;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.markdown-body td {
+  border: 1px solid #1e293b; /* Slate 800 */
+  padding: 0.6rem 0.85rem;
+  color: #cbd5e1;
+}
+
+.markdown-body tr:nth-child(even) {
+  background-color: rgba(30, 41, 59, 0.25);
+}
+
+.markdown-body hr {
+  border: 0;
+  border-top: 1px solid #1e293b;
+  margin: 1.5rem 0;
+}
