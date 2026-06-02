@@ -1,6 +1,6 @@
 {
   "name": "AI Multi-Functional Assistant",
   "description": "A robust, multi-functional workspace powered by Gemini with custom persona configurations, Google Search-grounded chat, and text-generation wizards.",
-  "requestFramePermissions": [],
+  "requestFramePermissions": ["microphone"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
